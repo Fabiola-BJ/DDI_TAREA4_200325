@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:visibility="visible"
+        android:background="@drawable/image2">
+
+
+        <TextView
+            android:id="@+id/textView"
+            style="@android:style/Widget.Material.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/common_google_signin_btn_text_light_default"
+            android:fontFamily="@font/pangolinregular"
+            android:text="FABI 200325 "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:typeface="monospace" />
+
+    </FrameLayout>
+</LinearLayout>
